@@ -8,4 +8,6 @@ And, of course, if you have knowledge about scripting, any suggestion or comment
 
 ##align_finish_ns.sh
 
-Is an script to complete an alignment with n's. It would be needed if you transform a VCF file to fasta because it puts n's at the begining and between known positions but not at the end of the sequence. If you want to concatenate some samples mapped with the same reference, this could be a problem as in an alignment all the sequences must have the same length.
+Is an script to complete an alignment with n's. It would be needed if you transform a VCF file to fasta because on this step n's are put at the begining and between known positions but not at the end of the sequence. 
+
+If you want to concatenate some samples mapped against the same reference, this could be a problem as in an alignment all the sequences must have the same length, so you can use this bash script to avoid the problem.
